@@ -14,7 +14,7 @@ aside img {
 
 aside h2 {
     position: relative;
-    top: 47 px;
+    top: 3px;
     left: 5px;
 }
 nav {background-color: rgb(67, 147, 115);
@@ -46,7 +46,7 @@ footer{
 }
 /* Class Selectors */
 .box{
-    margin: 1 rem;
+    margin: 1rem;
     border: 5px solid rgb(5, 46, 30); 
     padding: 1rem;
     background-color:rgb(67, 147, 115);
