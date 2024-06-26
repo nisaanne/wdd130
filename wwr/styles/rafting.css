@@ -13,7 +13,7 @@
     --nav-hover-link-color: #A23E48;
     --nav-hover-background-color: #e556e7;}
 
-    main{max-width: 840px;}
+    main{max-width: 1200px;}
     
     h1,h2,h3,h4,h5,h6{
         font-family: var(--heading-font);
