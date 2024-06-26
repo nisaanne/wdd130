@@ -12,6 +12,8 @@
     --nav-link-color: #243156;
     --nav-hover-link-color: #A23E48;
     --nav-hover-background-color: #e556e7;}
+
+    main{max-width: 840px;}
     
     h1,h2,h3,h4,h5,h6{
         font-family: var(--heading-font);
@@ -46,14 +48,21 @@
     
     div{color:#264be0}
 
-  div-container{
-        width:100%; 
+    .hero container {
+        width: 100%; 
         max-width: 1200px; 
-        margin: 0 auto;
+        margin: 0 auto; 
     }
-    
-    div-image {
-        width: 100%;
-        max-width: 100%;
-        height: auto; 
+
+    .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+    h1{position:absolute}
+
+    article {
+
     }
