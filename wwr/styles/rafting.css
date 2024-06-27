@@ -63,16 +63,23 @@
 
     h1{position:absolute;
         top: 200px;
-        left: 70px;}
+        left: 70px;
+        padding-bottom: 0;
+        padding-top:0;
+ }
 
     article {
-    max-width: 200px;
     position:absolute;
     top: 600px;
     left: 70px;
     color:#051760;
     background-color:#b3dee0;
-    }
+   }
+
+   article > img{float:right;
+   max-width: 360px;
+   
+}
 
   .sociallinks img {
     max-width: 50px;
