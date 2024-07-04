@@ -2,12 +2,17 @@
 padding: 0;
 box-sizing: border-box;}
 
-main{max-width: 840px;}
+main{max-width: 840px;
+     grid-column:2/3;
+     margin: 1rem;
+    }
 
 aside{
     position: relative;
     width:20em;
-    text-align: center;}
+    text-align: center;
+    grid-column: 1/2;
+    grid-row:1/2;}
 
 aside img {
     width: 200px;
@@ -20,15 +25,22 @@ aside h2 {
     left: 210px;
 }
 nav {background-color: rgb(67, 147, 115);
-padding: 20px}
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
 
 nav a {
     color:white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
-h1{ color:rgb(5, 46, 30)}
+h1{ color:rgb(5, 46, 30);
+    border-bottom: 2px solid black;    
+}
 
 main img{
     width: 150px;
@@ -53,6 +65,14 @@ footer{
     padding: 1rem;
     background-color:rgb(67, 147, 115);
     color:rgb(17, 11, 2);
-
-
 }
+header, footer,.grid{
+    max-width:840px;
+    margin: 0px auto;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
