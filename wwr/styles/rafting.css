@@ -84,3 +84,61 @@
   .sociallinks img {
     max-width: 50px;
   }
+
+    .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+ }
+
+    .flex-container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .flex-item-1{
+    border: 5px solid steelblue;
+    background-color: #ffffff;
+    }
+
+    .flex-item-2{
+    border: 5px solid steelblue;
+    background-color: #ffffff;
+        }
+
+    .flex-item-3{
+    border: 5px solid steelblue;
+    background-color: #ffffff;
+            }    
+
+    .flex-item-4{
+    border: 5px solid steelblue;
+    background-color: #ffffff;
+                }
+
+  
+
+   
+    header img{ 
+    border: 10px solid steelblue;
+
+    }
+
+    section.type-a img{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 50px; 
+    border: 10px solid steelblue;
+    
+    }
+
+ 
+
+    
+
+
+
+ 
