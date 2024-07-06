@@ -24,7 +24,7 @@ aside h2 {
     top: 120px;
     left: 210px;
 }
-nav {background-color:solid rgb(172, 229, 206);
+nav {background-color:rgb(172, 229, 206);
     padding: 20px;
     display:flex;
     justify-content: space-evenly;
@@ -32,13 +32,13 @@ nav {background-color:solid rgb(172, 229, 206);
 }
 
 nav a {
-    color:solid black;
+    color:black;
     display: block;
     padding: 20px;
     text-decoration: none;
 }
 
-h1{ color:solid rgb(5, 46, 30);
+h1{ color:rgb(5, 46, 30);
     border-bottom: 2px solid black;    
 }
 
