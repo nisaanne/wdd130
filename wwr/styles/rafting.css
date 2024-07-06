@@ -21,6 +21,8 @@
     }
     
     header{
+        display: grid;
+        grid-template-columns: 200px auto;
         padding: 20px;
         background-color: var(--accent1-color);
         }
@@ -29,9 +31,12 @@
         padding: 25px;
     }
     
-    nav{background-color: var(--nav-background-color);
+    nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display: flex;}
+    }
     
     nav a{
         display:block;
@@ -46,7 +51,8 @@
     nav a:hover {
     background-color: var(--nav-hover-background-color);}
     
-    div{color:#264be0}
+    div{color:#264be0;
+    }
 
     .hero container {
         width: 100%; 
@@ -85,60 +91,38 @@
     max-width: 50px;
   }
 
-    .grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    align-items: center;
+  .history{
+   border: 5px solid rgb(5, 46, 30);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   
+  }
+
+  .history img{
+   max-width: 200px; 
+  }
+
+  figure{
+    display: inline-block;
+    margin: 0 auto;
  }
-
-    .flex-container{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ figure img{
+    vertical-align: top;
+    max-width: 200px;                 
+ }
+ figure figcaption{
+    text-align: center;
+ }
     
-    }
-
-    .flex-item-1{
-    border: 5px solid steelblue;
-    background-color: #ffffff;
-    }
-
-    .flex-item-2{
-    border: 5px solid steelblue;
-    background-color: #ffffff;
-        }
-
-    .flex-item-3{
-    border: 5px solid steelblue;
-    background-color: #ffffff;
-            }    
-
-    .flex-item-4{
-    border: 5px solid steelblue;
-    background-color: #ffffff;
-                }
+ footer{
+    display: flex;
+    justify-content: end; 
+    background-color: #34E4EA;  
+ }
 
   
 
-   
-    header img{ 
-    border: 10px solid steelblue;
-
-    }
-
-    section.type-a img{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 50px; 
-    border: 10px solid steelblue;
-    
-    }
-
- 
-
-    
-
-
-
- 
+  
+     
+  
