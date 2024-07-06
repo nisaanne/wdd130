@@ -32,13 +32,13 @@ nav {background-color:solid rgb(172, 229, 206);
 }
 
 nav a {
-    color:black;
+    color:solid black;
     display: block;
     padding: 20px;
     text-decoration: none;
 }
 
-h1{ color:rgb(5, 46, 30);
+h1{ color:solid rgb(5, 46, 30);
     border-bottom: 2px solid black;    
 }
 
