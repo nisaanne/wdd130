@@ -24,7 +24,7 @@ aside h2 {
     top: 120px;
     left: 210px;
 }
-nav {background-color: rgb(118, 212, 174);
+nav {background-color: rgb(172, 229, 206);
     padding: 20px;
     display:flex;
     justify-content: space-evenly;
@@ -63,7 +63,7 @@ footer{
     margin: 1rem;
     border: 5px solid rgb(5, 46, 30); 
     padding: 1rem;
-    background-color:rgb(118, 212, 174);
+    background-color:rgb(172, 229, 206);
     color:rgb(17, 11, 2);
 }
 header, footer,.grid{
