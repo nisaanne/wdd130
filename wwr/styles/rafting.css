@@ -84,14 +84,16 @@
 
     article {
     position:absolute;
-    top: 700px;
+    top: 500px;
     left: 70px;
     color:#051760;
     background-color:#b3dee0;
+    width: 1000px;
    }
 
    article > img{float:right;
-   max-width: 360px;
+   max-width: 200px;
+   padding: 50px;
    
 }
 
@@ -99,16 +101,25 @@
     max-width: 50px;
   }
 
-  .history{
+  
+  .history {
    border: 5px solid rgb(5, 46, 30);
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   align-items: center;
+   grid-template-columns: 2fr 1fr 2fr;
+   padding: 1rem;
    
+      
   }
 
   .history img{
-   max-width: 200px; 
+   width: 300px;
+   height: auto;
+   
+   
+  }
+  .history h2 {
+    text-align: center;
+    grid-column: 1/4;
   }
 
   figure{
