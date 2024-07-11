@@ -125,7 +125,6 @@
   figure{
     display: inline-block;
     margin: 0 auto;
-    width: 100%;
  }
  figure img{
     vertical-align: top;
@@ -139,8 +138,7 @@
  footer{
     display: flex;
     justify-content: end; 
-    background-color: #34E4EA; 
-    width: 100%; 
+    background-color: #34E4EA;  
  }
 
  .adventure{
