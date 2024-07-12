@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --primary-color: #A23E48;
+    --secondary-color: #243156;
+    --accent1-color: #34E4EA;
+    --accent2-color: #FFF275;
+    
+    --heading-font: 'Rock Salt';
+    --paragraph-font: Arial;
+    
+    --nav-background-color: #34E4EA;
+    --nav-link-color: #243156;
+    --nav-hover-link-color: #A23E48;
+    --nav-hover-background-color: #e556e7;}
+
+    main{max-width: 1200px;}
+    
+    h1,h2,h3,h4,h5,h6{
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+    }
+    
+  
+    header{
+        display: grid;
+        grid-template-columns: 200px auto;
+        padding: 20px;
+        background-color: var(--accent1-color);
+        }
+    
+       
+    nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    }
+    
+    nav a{
+        display:block;
+        color: var(--nav-link-color);
+        text-decoration:none;
+        padding: 1rem;
+    }
+    
+    nav a:link, nav a:visited
+    {color: var(--nav-link-color);}
+    
+    nav a:hover {
+    background-color: var(--nav-hover-background-color);}
+    
+    div{color:#264be0;
+        padding: 10px;
+    }
+
+
+    h1{position:absolute;
+        top: 200px;
+        left: 70px;
+        padding:0px;
+ }
+
+    h2{
+    display: flex;
+    justify-content:center;    
+    }
+
+  .sociallinks img {
+    max-width: 50px;
+  }
+
+figure{
+    display: inline-block;
+    margin: 0 auto;
+
+ }
+ figure img{
+    vertical-align: top;
+    max-width: 250px;
+    height: 200px;
+                  
+ }
+ figure figcaption{
+    text-align: center;
+ }
+    
+ footer{
+    display: flex;
+    justify-content: end; 
+    background-color: #34E4EA; 
+} 
+
+    *{
+        margin: 0;
+        padding: .5;
+        box-sizing: border-box;
+    } 
+
+    .employees{
+        display: flex;
+        justify-content: center; 
+        padding: 50px;
+           
+    
+     }
+
+    form{
+        width: 650px;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 10px solid rgb(54, 64, 151);
+        border-radius: 0.5rem;
+        background-color: rgb(133, 236, 236);
+        display:grid
+    
+    }
+    
+    label{
+        text-align: left;
+        padding-right: 1rem;
+        color:#264be0;
+    }
+    
+    input, select, textarea{
+        padding: 0.5rem;
+        font-size:1.1rem;
+    }
+    
+    
+    button{
+        margin:1rem;
+        background-color: rgb(132, 160, 220);
+        color: #fff;
+        border: none;
+        border-radius: .5rem;
+        padding: .75rem;
+        font-size: 1.2rem;
+    
+    }
+    
+    button:hover{
+        background-color: rgb(13, 189, 175);
+    }  
+
+  
+
+  
+     
+  
