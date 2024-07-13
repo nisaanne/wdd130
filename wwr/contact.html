@@ -57,23 +57,25 @@
                 
                 
                 <div class="form-item column2">
-                    <label>Full Name: <input type="text" name="fullname"></label>
+                    <label>Full Name: <input type="text" id="fullname" name="fullname"></label>
                 </div>
                 <div class="form-item column2"> 
-                    <label>Email: <input type="email" name="useremail"></label>
+                    <label>Email: <input type="email" id="email" name="useremail"></label>
                 </div>
            
                 <div class="form-item column1">
             
                     
                 <label>What is the purpose of your inquiry?</label>
-                <input type="radio" name="General Inquiry" value="General Inquiry">General Inquiry
-                <input type="radio" name="Reservation Question" value="Reservation Question"> Reservation Question
-                <input type="radio" name="Website Suggestion" value="Website Suggestion"> Website Suggestion
+                <input type="radio" id="Gen Inquiry" name="General Inquiry" value="General Inquiry">General Inquiry
+                <input type="radio" id="Res Ques" name="Reservation Question" value="Reservation Question"> Reservation Question
+                <input type="radio" id="Web Sug" name="Website Suggestion" value="Website Suggestion"> Website Suggestion
             
                 </div>
                 <div class="form-item column1">
-                <label>Please subscribe me to the monthly newsletter <input type="checkbox" name="pet"></label>
+                <label>Please subscribe me to the monthly newsletter: </label>
+                <input type="checkbox" name="newsletter" id="newsletter" value="value">
+
                 </div>
                 <label>Message: </label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Let us know how we can help you."></textarea>
