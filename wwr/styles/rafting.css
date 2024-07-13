@@ -2,13 +2,13 @@
 :root{
     --primary-color: #A23E48;
     --secondary-color: #243156;
-    --accent1-color: #34E4EA;
+    --accent1-color: #8ed5d7;
     --accent2-color: #FFF275;
     
     --heading-font: 'Rock Salt';
     --paragraph-font: Arial;
     
-    --nav-background-color: #34E4EA;
+    --nav-background-color: #8ed5d7;
     --nav-link-color: #243156;
     --nav-hover-link-color: #A23E48;
     --nav-hover-background-color: #e556e7;}
@@ -139,7 +139,7 @@
  footer{
     display: flex;
     justify-content: end; 
-    background-color: #34E4EA;  
+    background-color: #8ed5d7;  
  }
 
  .adventure{
@@ -161,9 +161,9 @@ form{
     width: 650px;
     margin: 25px;
     padding: 1rem;
-    border: 10px solid rgb(54, 64, 151);
+    border: 10px solid rgb(5, 9, 45);
     border-radius: 0.5rem;
-    background-color: rgb(133, 236, 236);
+    background-color: #8ed5d7;
     display:grid
     
 
