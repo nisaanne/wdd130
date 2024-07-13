@@ -14,6 +14,8 @@
     --nav-hover-background-color: #e556e7;}
 
     main{max-width: 1200px;}
+
+    body{max-width: 1200px;}
     
     h1,h2,h3,h4,h5,h6{
         font-family: var(--heading-font);
@@ -25,6 +27,7 @@
         grid-template-columns: 200px auto;
         padding: 20px;
         background-color: var(--accent1-color);
+        max-width: 1200px;
         }
     
   
@@ -139,7 +142,8 @@
  footer{
     display: flex;
     justify-content: end; 
-    background-color: #8ed5d7;  
+    background-color: #8ed5d7;
+    max-width: 1200px;
  }
 
  .adventure{
