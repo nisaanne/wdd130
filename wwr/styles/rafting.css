@@ -235,7 +235,7 @@ button:hover{
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 100vh;
+  height: 50vh;
   text-align: center;
 }
   
