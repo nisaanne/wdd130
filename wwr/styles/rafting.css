@@ -251,8 +251,10 @@ button:hover{
   border: 10px solid #0b1275;
   margin: 10px;}
 
-}
-.submitcontainer {
+  }
+
+ 
+  .submitcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;}
     
