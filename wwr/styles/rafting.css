@@ -262,7 +262,7 @@ button:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;}
     
-#submit{
+button{
   
   color: #000;
   grid-column: 1/4;
