@@ -237,21 +237,25 @@ button:hover{
   grid-template-columns: 1fr 1fr 1fr;
   height: 100vh;
   text-align: center;
+}
   
 
   .aside-left{
   border: 10px solid #0b1275;
-  margin: 10px;}
+  margin: 10px;
+}
 
   .main{
   border: 10px solid #0b1275;
-  margin: 10px;}
+  margin: 10px;
+}
 
   .aside-right{
   border: 10px solid #0b1275;
-  margin: 10px;}
+  margin: 10px;
+}
 
-  }
+  
 
  
   .submitcontainer {
