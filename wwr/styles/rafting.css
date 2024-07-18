@@ -255,19 +255,23 @@ button:hover{
   margin: 10px;
 }
 
-  
+  .submit{
+    color: #000;
+    grid-column: 1/4;
+
+  }
 
  
   .submitcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;}
     
-button{
+/* button{
   
   color: #000;
   grid-column: 1/4;
   
-}
+} */
 
 tablecontainer {
     display: grid;
